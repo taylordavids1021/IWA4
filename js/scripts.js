@@ -1,20 +1,20 @@
 let date = 2050;
 let status = 'parent';
-let count = 11;
+let count = 0;
+let holidays = 'Christmas Day'
+let month = 'December'
 
 // if (date === 2050) {
-    
-// 	// console.log("January", 'New Year’s Day')
-// 	// console.log("March", 'Human Rights Day')
-// 	// date = 'April'
-// 	// console.log(date, 'Family Day')
-// 	// console.log(date, 'Freedom Day')
-// 	// count += 4
+// 	console.log("March", 'Human Rights Day')
+// 	date = 'April'
+// 	console.log(date, 'Family Day')
+// 	console.log(date, 'Freedom Day')
+// 	count += 4
 // }
-	if (status === 'student') {
-	  console.log('June', 'Youth Day')
-	  let count = count + 1
-  }
+if (status === 'student') {
+	console.log('June', 'Youth Day')
+	count += 1
+}
 
 	// console.log('August', 'Women’s Day')
 	// console.log('September', 'Heritage Day')
@@ -23,7 +23,7 @@ let count = 11;
 	// count += 3
 
 	if (status === 'parent') {
-	    console.log('Christmas Day', 'December')
+	    console.log(month, holidays)
 	    count += 1
   }
 
